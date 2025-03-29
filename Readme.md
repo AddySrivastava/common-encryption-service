@@ -65,7 +65,7 @@ The service will start on port `3030`.
 - **Request Body:**
   ```json
   {
-    "namespace": "your_collection_name",
+    "namespace": "db.collection",
     "fieldNameArrayMap": {
       "field1": "<encrypted_value>",
       "field2": "<encrypted_value>"
@@ -75,7 +75,7 @@ The service will start on port `3030`.
 - **Response:**
   ```json
   {
-    "namespace": "your_collection_name",
+    "namespace": "db.collection",
     "decryptedData": {
       "field1": "value1",
       "field2": "value2"
