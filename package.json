@@ -1,0 +1,16 @@
+{
+  "name": "common-encryption-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "encryption.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongodb": "^6.15.0",
+    "mongodb-client-encryption": "^6.3.0"
+  }
+}
