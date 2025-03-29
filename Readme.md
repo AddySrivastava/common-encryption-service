@@ -23,13 +23,13 @@ This is a Node.js service that provides encryption and decryption of MongoDB fie
    ```sh
    npm install
    ```
-3. Update the MongoDB connection URI in the `uri` variable inside `index.js`.
+3. Update the MongoDB connection URI in the `uri` variable inside `encryption.js`.
 
 ## Usage
 
 ### Start the Service
 ```sh
-node index.js
+node encryption.js
 ```
 The service will start on port `3030`.
 
